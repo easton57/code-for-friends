@@ -25,12 +25,12 @@ def rest_request():
     if response.status_code == 200:
 
         # print a message indicating that the saved search was disabled
-        print(f"The saved search '{i}' has been disabled.")
+        print(f"The saved search test has been disabled.")
 
     else:
 
         # print an error message if the request was not successful
-        print(f"Error: Failed to disable the saved search '{i}'.")
+        print(f"Error: Failed to disable the saved search test.")
 
 
 if __name__ == "__main__":
